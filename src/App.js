@@ -1,9 +1,18 @@
 import React from 'react';
-import logo from './logo.svg';
+//import logo from './logo.svg';
 import './App.css';
+import Plansza from './Plansza';
+import Czasomierz from './Czasomierz';
 
+//Apka Reactowa by: Marcin Wykocki, czyli dlaczego omijam tego typu rozwiazania i jezyki beztypowe szerokim lukiem...
 function App() {
   return (
+    <body className="main">
+      <Czasomierz/>
+      <Plansza/>
+    </body>
+    /*
+    
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
@@ -20,6 +29,7 @@ function App() {
         </a>
       </header>
     </div>
+    */
   );
 }
 
